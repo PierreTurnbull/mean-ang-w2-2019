@@ -8,6 +8,7 @@ Imports
     // Inner
     import { HomePageComponent } from './home-page.component';
     import { Routing } from "./router";
+    import { MerchantService } from "../../services/merchant/merchant.service"
 //
 
 

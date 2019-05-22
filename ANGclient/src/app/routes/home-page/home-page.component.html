@@ -1,3 +1,8 @@
-<p>
-  home-page works!
-</p>
+<div>
+  <p>home-page works!</p>
+  <ul *ngIf="merchants.length">
+    <li *ngFor="let merchant of merchants">
+      {{ merchant.content.name }}
+    </li>
+  </ul>
+</div>
